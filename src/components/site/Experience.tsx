@@ -1,5 +1,4 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
 
 export default function Experience() {
   return (
@@ -19,10 +18,10 @@ export default function Experience() {
               <li>Led a team of developers, handled code reviews, and ensured quality through testing, Git version control, and client demos</li>
               <li>Associated Project: Rival Finance</li>
             </ul>
-            <div className="mt-3">
+            {/* <div className="mt-3">
               <p className="text-xs font-medium text-foreground">Key Skills:</p>
               <p className="text-xs text-muted-foreground">React.js, React Native, JavaScript, Web Socket, Material UI, Redux State Management, Node.js, MongoDB</p>
-            </div>
+            </div> */}
           </CardContent>
         </Card>
         <Card>
@@ -35,7 +34,7 @@ export default function Experience() {
               <li>Built cross-platform applications using React Native and React.js, creating custom UI components from Figma designs</li>
               <li>Integrated REST APIs and managed state efficiently using Redux Toolkit and Context API</li>
               <li>Collaborated with cross-functional teams and used Git for version control and smooth project delivery</li>
-              <li>Associated Project: Ponttual</li>
+              <li>Associated Project: Ponttual, Tawle</li>
             </ul>
           </CardContent>
         </Card>

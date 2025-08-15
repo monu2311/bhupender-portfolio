@@ -58,14 +58,14 @@ export default function Contact() {
       <div className="mb-8">
         <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Contact</h2>
         <div className="h-1 w-16 bg-primary mt-2"></div>
-        <p className="text-muted-foreground mt-2">Have a project in mind? Let's talk.</p>
+        <p className="text-muted-foreground mt-2">Have a project in mind? Let&apos;s talk.</p>
       </div>
 
       <div className="grid gap-8 md:grid-cols-2">
         <div>
           <h3 className="text-lg font-semibold mb-4">Get in Touch</h3>
           <p className="text-muted-foreground mb-6">
-            I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology and development.
+          I&apos;m always open to discussing new opportunities, interesting projects, or just having a chat about technology and development.
           </p>
           <div className="space-y-4">
             <div className="flex items-center gap-3">
@@ -88,7 +88,7 @@ export default function Contact() {
               <div className="text-center py-8">
                 <CheckCircle className="h-12 w-12 text-green-500 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold mb-2">Message Sent!</h3>
-                <p className="text-muted-foreground">Thank you for reaching out. I'll get back to you soon!</p>
+                <p className="text-muted-foreground"> Thank you for reaching out. I&apos;ll get back to you soon!</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="grid gap-4">
