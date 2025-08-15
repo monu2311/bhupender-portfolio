@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const skillGroups: { title: string; items: string[] }[] = [
   { 
     title: "Frontend", 
-    items: ["React.js", "React Native", "TypeScript", "JavaScript", "ES6", "HTML", "CSS"] 
+    items: ["React.js", "React Native", "TypeScript", "JavaScript","Next.js", "ES6", "HTML", "CSS"] 
   },
   { 
     title: "Backend & Database", 
