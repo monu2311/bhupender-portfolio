@@ -101,13 +101,13 @@ export function Navbar() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className="text-base text-foreground/90"
+                    className="text-base text-foreground/90 px-3 py-2 rounded-md"
                     onClick={() => setOpen(false)}
                   >
                     {item.label}
                   </Link>
                 ))}
-                <div className="pt-4 border-t">
+                <div className="px-3 py-2 pt-4 border-t">
                   <Button variant="ghost" size="icon" onClick={toggleTheme} className="w-full justify-start">
                     {theme === 'light' ? <Moon className="h-5 w-5 mr-2" /> : <Sun className="h-5 w-5 mr-2" />}
                     {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
