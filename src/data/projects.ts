@@ -42,6 +42,38 @@ export const allProjects: Project[] = [
     ],
   },
   {
+    slug: "tarality",
+    title: "Tarality",
+    description: "A blockchain-based crypto exchange offering multi-currency wallets, INR trading, KYC verification, escrow services, BNPL, referral rewards, and AI-powered fraud detection for secure and transparent transactions.",
+    image: "/projects/TaralityBanner.png",
+    banner: "/projects/TaralityBanner.png",
+    techStack: ["React.js", "Express.js", "JavaScript", "Material-UI", "Git"],
+    content: [
+      "Developed and exposed a CRUD application using a RESTful API built with React.js",
+      "Integrated REST APIs to make the website dynamic and data-driven",
+      "Implemented code reuse strategies to enhance application performance and stability",
+      "Integrated third-party APIs to fetch ads and other web information",
+      "Collaborated with the team to maintain clean, scalable, and maintainable code"
+    ],
+  },
+  {
+    slug: "pay2p-ewallet",
+    title: "PAY2P eWallet",
+    description: "A peer-to-peer digital wallet platform enabling secure money transfers, instant payments, multi-currency support, and seamless financial management with advanced security features.",
+    image: "/projects/P2P.png",
+    banner: "/projects/P2P.png",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Material-UI", "Firebase", "Blockchain", "KYC SDK", "AWS"],
+    content: [
+      "Developed a secure P2P wallet platform for instant money transfers and digital payments",
+      "Integrated KYC verification and multi-layered authentication for user trust and compliance",
+      "Implemented multi-currency wallet support with smooth INR and international transactions",
+      "Designed and built responsive UI with React.js and Material-UI for an intuitive experience",
+      "Optimized backend with Node.js and Express.js to handle high-volume transaction requests",
+      "Added escrow and fraud detection mechanisms to ensure safe and transparent operations",
+      "Provided seamless transaction history, rewards, and wallet-to-wallet payment features"
+    ],
+  },
+  {
     slug: "tawle",
     title: "Tawle",
     description: "Restaurant Booking & Management Platform - Connects customers with restaurants for real-time table reservations, menu browsing, and loyalty programs.",
@@ -57,6 +89,24 @@ export const allProjects: Project[] = [
       "Implemented push notifications for booking confirmations and promotional updates"
     ],
   },
+  {
+  slug: "beatnami-nft-marketplace",
+  title: "BeatNami NFT Marketplace",
+  description: "A blockchain-powered marketplace for minting, buying, and selling NFTs, offering wallet integration, auctions, royalties, and seamless user experience.",
+  image: "/projects/Bite.png",
+  banner: "/projects/Bite.png",
+  techStack: ["React.js", "Next.js", "Web3.js", "Solidity", "Alphanumeric Smart Contracts", "Material-UI", "Node.js", "MongoDB", "IPFS", "AWS"],
+  content: [
+    "Built a decentralized NFT marketplace supporting minting, bidding, and purchasing of unique digital assets",
+    "Integrated blockchain smart contracts using Solidity and Web3.js to manage ownership, auctions, and royalties",
+    "Developed wallet integrations (e.g., MetaMask) for secure onboarding and transactions",
+    "Designed responsive and immersive UI/UX with React.js, Next.js, and Material-UI",
+    "Implemented IPFS-based decentralized storage for reliable metadata and media delivery",
+    "Optimized backend services using Node.js and MongoDB for listings, user profiles, and transaction data",
+    "Integrated analytics and event tracking to monitor marketplace activity and inform feature enhancements"
+  ],
+}
+
 ];
 
 
